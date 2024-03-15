@@ -13,6 +13,4 @@ const App = () => {
   }, [])
   return <Root />
 }
-
 export default App
-
