@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { createSlice } from '@reduxjs/toolkit'
 import {
   getUserProfile,
@@ -16,7 +15,7 @@ import {
 
 const initialState = {
   loginStatus: null,
-  login: null || JSON.parse(localStorage.getItem('login')),
+  login: false || JSON.parse(localStorage.getItem('login')),
   refreshStatus: null,
   profile: null,
   profileStatus: null,
